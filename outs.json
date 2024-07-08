@@ -1,56 +1,12 @@
 {
-    "success": true,
-    "message": "Data retrieved",
-    "data": [
-        {
-            "site": "056",
-            "siteDesc": "BOSTON",
-            "nationalId": null,
-            "nationalName": null,
-            "customerNumber": "149561",
-            "customerName": null,
-            "originalItem": "3533486",
-            "originalItemDescription": "CORN WHL KERNEL GR A",
-            "originalItemPack": "1",
-            "originalItemSize": "30 LB",
-            "originalItemStorageCode": "F",
-            "originalItemUom": "CS",
-            "originalItemBrand": "SYSCO CLASSIC",
-            "orderNumbers": [
-                "104576"
-            ],
-            "orderReasonCodes": [
-                "OUT"
-            ],
-            "asoh": -719,
-            "totalOrders": 1,
-            "totalOuts": 1,
-            "cutoff": "00:00",
-            "requestApprovalFlag": true,
-            "categorizationFlag": null,
-            "kosher": true,
-            "entityId": "SK-A1",
-            "orderDetailBeans": [
-                {
-                    "conceptId": "149561",
-                    "conceptName": null,
-                    "orderNumber": 104576,
-                    "orderLine": 55,
-                    "orignalItemStorageCode": "F",
-                    "orignaItemUOM": "CS",
-                    "orignalItemBrand": "SYSCO CLASSIC",
-                    "orignalItmpack": null,
-                    "orignalItemsize": "30 LB",
-                    "orignalItem": "3533486",
-                    "orignalItemDescription": "CORN WHL KERNEL GR A",
-                    "customerShipTo": "149561",
-                    "customerShipToName": null,
-                    "orderedQuantity": 1,
-                    "allocatedQuantity": 0,
-                    "outQuantity": 1
-                }
-            ]
-        }
-    ],
-    "totals": 1
+    "role": "ma",
+    "market": null,
+    "region": null,
+    "sites": null,
+    "territories": null,
+    "nationalIds": null,
+    "conceptIds": null,
+    "accessible": true,
+    "sellerId": "USBL",
+    "languageLocaleKey": "en_US"
 }
