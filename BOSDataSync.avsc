@@ -1,0 +1,208 @@
+{
+  "type": "record",
+  "namespace": "com.sysco.bos",
+  "name": "bosDatasync",
+  "doc": "BOS Data sync",
+  "fields": [
+    {
+      "name": "data_type",
+      "type": "string",
+      "doc": "Indicates the type of data"
+    },
+    {
+      "name": "rule_type",
+      "type": "string",
+      "doc": "Type of the rule - Sub rule, No sub rule"
+    },
+	{
+      "name": "action",
+      "type": "string",
+      "doc": "Type of Action on the Sub Rule - Add/Update/Delete"
+    },
+    {
+      "name": "site",
+      "type": "string",
+      "doc": "Opco NUmber"
+    },
+    {
+      "name": "concept_id",
+      "type": "string",
+      "doc": "Concept Id"
+    },
+	{
+      "name": "customer_number",
+      "type": "string",
+      "doc": "Ship To Number"
+    },
+    {
+      "name": "original_item",
+      "type": "string",
+      "doc": "Original Item"
+    },
+	{
+      "name": "original_item_description",
+      "type": "string",
+      "doc": "Original Item Description"
+    },
+	{
+      "name": "original_split_indicator",
+      "type": "string",
+      "doc": "Original Item's Split Indicator"
+    },
+	{
+      "name": "original_storage_code",
+      "type": "string",
+      "doc": "Original Item's Storage Code"
+    },
+	{
+      "name": "original_pack",
+      "type": "string",
+      "doc": "Original Item's Pack"
+    },
+	{
+      "name": "original_size",
+      "type": "string",
+      "doc": "Original Item's Size"
+    },
+	{
+      "name": "original_brand",
+      "type": "string",
+      "doc": "Original Item's brand"
+    },
+    {
+      "name": "substitute_item",
+      "type": "string",
+      "doc": "Substitute Item"
+    },
+	{
+      "name": "substitute_item_description",
+      "type": "string",
+      "doc": "Substitute Item Description"
+    },
+	{
+      "name": "substitutel_split_indicator",
+      "type": "string",
+      "doc": "Substitute Item's Split Indicator"
+    },
+	{
+      "name": "substitute_storage_code",
+      "type": "string",
+      "doc": "Substitute Item's Storage Code"
+    },
+	{
+      "name": "substitute_pack",
+      "type": "string",
+      "doc": "Substitute Item's Pack"
+    },
+	{
+      "name": "substitute_size",
+      "type": "string",
+      "doc": "Substitute Item's Size"
+    },
+	{
+      "name": "substitute_brand",
+      "type": "string",
+      "doc": "Substitute Item's brand"
+    },
+	{
+      "name": "subrule_priority",
+      "type": "int",
+      "doc": "The priority of the Sub Rule"
+    },
+	{
+      "name": "sub_ratio",
+      "type": "float",
+      "doc": "The conversion factor of the SUbstitution"
+    },
+	{
+      "name": "reason_code",
+      "type": "string",
+      "doc": "Reason Code of the No Sub Rule"
+    },
+	{
+      "name": "reason_code_description",
+      "type": "string",
+      "doc": "Reason Code Description of the No Sub Rule"
+    },
+	{
+      "name": "effective_end_date",
+      "type": "string",
+      "doc": "Effective end date of the Sub Rule"
+    },
+	{
+      "name": "drop_flag",
+      "type": "string",
+      "doc": "Drop Flag"
+    },
+	{
+      "name": "inclusion_exclusion",
+      "type": "string",
+      "doc": "flag"
+    },
+	{
+      "name": "approval_required",
+      "type": "string",
+      "doc": "flag"
+    },
+	{
+      "name": "sub_out_of_catalog",
+      "type": "string",
+      "doc": "flag"
+    },
+	{
+      "name": "local_central",
+      "type": "string",
+      "doc": "flag"
+    },
+	{
+      "name": "start_of_day_email",
+      "type": "string",
+      "doc": "flag"
+    },
+	{
+      "name": "bos_cut_off",
+      "type": "float",
+      "doc": "BOS Maintenance Cut off"
+    },
+	{
+      "name": "account_owner",
+      "type": "string",
+      "doc": "Account Owner"
+    },
+	{
+      "name": "account_owner_phone",
+      "type": "string",
+      "doc": "Account Owner Contact number"
+    },
+	{
+      "name": "order_number",
+      "type": "string",
+      "doc": "Order Number"
+    },
+	{
+      "name": "order_detail_line_number",
+      "type": "string",
+      "doc": "Order Detail Line Number"
+    },
+	{
+      "name": "created_timestamp",
+      "type": "string",
+      "doc": "Created Time stamp"
+    },
+	{
+      "name": "created_by",
+      "type": "string",
+      "doc": "Created By User"
+    },
+	{
+      "name": "modified_timestamp",
+      "type": "string",
+      "doc": "Modified Time stamp"
+    },
+	{
+      "name": "modified_by",
+      "type": "string",
+      "doc": "Modified By User"
+    }
+  ]
+}
