@@ -1,12 +1,13 @@
 {
-    "role": "market",
-    "market": null,
-    "region": null,
-    "sites": null,
-    "territories": null,
-    "nationalIds": null,
-    "conceptIds": null,
-    "accessible": true,
-    "sellerId": "USBL",
-    "languageLocaleKey": "fr"
+  "role": "Corp",
+  "market": null,
+  "region": null,
+  "regions": null,
+  "sites": null,
+  "territories": null,
+  "nationalIds": null,
+  "conceptIds": null,
+  "accessible": true,
+  "sellerId": "USBL",
+  "languageLocaleKey": "fr"
 }
